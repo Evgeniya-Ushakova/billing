@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 
 @Data
 @Entity
-@Table(schema = "evg", name = "account")
+@Table(schema = "billing", name = "account")
 @EqualsAndHashCode(callSuper = true)
 public class Account extends EntityBase<Long> {
 

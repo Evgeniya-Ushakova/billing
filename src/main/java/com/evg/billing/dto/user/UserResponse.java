@@ -1,6 +1,6 @@
 package com.evg.billing.dto.user;
 
-import com.evg.order.dto.BaseResponse;
+import com.evg.billing.dto.BaseResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

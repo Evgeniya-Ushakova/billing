@@ -2,7 +2,7 @@ package com.evg.billing.utils;
 
 import org.slf4j.MDC;
 
-import static com.evg.otus.utils.Utils.MDC_REQUEST_ID;
+import static com.evg.billing.utils.Utils.MDC_REQUEST_ID;
 
 public class MDCInit implements AutoCloseable{
 

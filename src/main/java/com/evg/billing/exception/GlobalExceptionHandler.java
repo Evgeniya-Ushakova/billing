@@ -1,6 +1,6 @@
 package com.evg.billing.exception;
 
-import com.evg.otus.dto.BaseResponse;
+import com.evg.billing.dto.BaseResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import static com.evg.otus.enums.ErrorMessageCode.INTERNAL_SERVER_ERROR;
+import static com.evg.billing.enums.ErrorMessageCode.INTERNAL_SERVER_ERROR;
 
 @RestControllerAdvice
 @RequiredArgsConstructor
