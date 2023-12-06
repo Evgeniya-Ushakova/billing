@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 public class Account extends EntityBase<Long> {
 
     @Column(name = "AMOUNT", columnDefinition = "decimal")
-    private BigDecimal amount;
+    private BigDecimal amount = new BigDecimal(0);
     @Column(name = "USER_ID", columnDefinition = "BIGINT")
     private Long userId;
 
